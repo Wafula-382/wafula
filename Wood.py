@@ -23,7 +23,7 @@ def read_from_file(filename):
 
 # --- Main execution block ---
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     # Create a new file, perhaps named after a type of wood!
     wood_file = "cedar_log.txt"
 
